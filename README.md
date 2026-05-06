@@ -3,9 +3,9 @@
 A full-stack web app for managing projects, assigning tasks, and tracking progress with role-based access control.
 
 ## 🔗 Links
-- **Live URL:** https://your-app.railway.app
-- **Demo Video:** [Add Loom link here]
-- **GitHub:** [Add repo link here]
+- **Live URL:** https://artistic-inspiration-production-945c.up.railway.app
+- **Backend API:** https://assignment-production-72d5.up.railway.app
+- **GitHub:** https://github.com/BhartiSinghal16/Assignment
 
 ---
 
@@ -56,21 +56,19 @@ npm install
 npm run dev
 ```
 
-Frontend runs on http://localhost:5173  
+Frontend runs on http://localhost:5173
 Backend runs on http://localhost:5000
 
 ---
 
 ## 🌐 Deploy on Railway
 
-1. Push `backend/` and `frontend/` to GitHub (can be same repo)
-2. Go to [railway.app](https://railway.app) → New Project
-3. Add **PostgreSQL** plugin → copy the `DATABASE_URL`
-4. Deploy backend service:
-   - Set env vars: `DATABASE_URL`, `JWT_SECRET`, `NODE_ENV=production`
-5. Deploy frontend service:
-   - Set env var: `VITE_API_URL=https://your-backend.up.railway.app`
-6. Both services will be live ✅
+1. Push code to GitHub
+2. Go to railway.app → New Project
+3. Add PostgreSQL → copy DATABASE_URL
+4. Deploy backend → set env vars: DATABASE_URL, JWT_SECRET, NODE_ENV=production
+5. Deploy frontend → set VITE_API_URL=https://your-backend.up.railway.app
+6. Generate domains for both services ✅
 
 ---
 
